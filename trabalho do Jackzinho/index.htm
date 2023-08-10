@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario responsivo com html e css</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="img-box">
+            <img src="ferramentas.png">
+        </div>
+		
+        <div class="form-box">
+		<center>
+            <h2>Manutenção de usuários do sistema interior</h2>
+           </center>
+            <form action="#">
+                <div class="input-group">
+                    <label for="nome"> login</label>
+                    <input type="text" id="Login" placeholder="Digite o seu login" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Senha</label>
+                    <input type="Senha" id="Senha" placeholder="Digite sua senha" required>
+                </div><br>
+				
+				                <div class="form_grupo">
+                    
+                    <b><label for="estadocivil" class="text">Status</label></b>
+                    <select name="estadocivil" class="dropdown" required>
+                        
+                        <option selected disabled class="form_select_option" value="">Selecione</option>
+                        <option value="Solteiro" class="form_select_option">Ativo</option>
+                        <option value="Casado" class="form_select_option">Inativo</option>                                   
+                                          
+                    
+                    </select>
+					
+
+                    <div class="form_grupo">
+
+                    <b><span class="legenda">TIPO:</span></b>
+                    
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Tecnico" name="sexo" value="Tecnico" required="required">
+                        <label for="Tecnico" class="radio_label form_label"> <span class="radio_new_btn"></span> Tecnico</label>
+                    </div>
+
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Professor" name="sexo" value="Professor" required="required">
+                        <label for="Professor" class="radio_label form_label"> <span class="radio_new_btn"></span> Professor</label>
+                    </div>
+					
+					<div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Aluno" name="sexo" value="Aluno" required="required" color="red">
+                        <label for="Aluno" class="radio_label form_label"> <span class="radio_new_btn"></span> Aluno</label>
+                    </div><br>
+
+                </div>
+              
+
+                </div>
+
+                
+				<div class="input-group">
+                    <b><label for="Sexo">Data criação</label></b>
+                    <input type="date" id="data" placeholder="Digite a data de criação" required>
+                </div>
+				
+				<div class="form_grupo">
+				<b><span class="legenda">Perfil</span></b>
+                    
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Tecnico" name="sexo" value="Tecnico" required="required">
+                        <label for="Convidado" class="radio_label form_label"> <span class="radio_new_btn"></span> Convidado</label>
+                    </div>
+
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Professor" name="sexo" value="Professor" required="required">
+                        <label for="Administrador" class="radio_label form_label"> <span class="radio_new_btn"></span> Administrador</label>
+                    </div> <br>
+				
+				 <div class="form_grupo">
+
+                    <b><span class="legenda">Observações:</span></b>
+					
+				<label>
+				<textarea>
+				</textarea>
+				
+				<div class="form_grupo">
+				<b><span class="legenda">Módulos</span></b>
+				
+				<div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Tecnico" name="sexo" value="Tecnico" required="required">
+                        <label for="Compras" class="radio_label form_label"> <span class="radio_new_btn"></span> Compras</label>
+                    </div>
+
+                    <div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Professor" name="sexo" value="Professor" required="required">
+                        <label for="Biblioteca" class="radio_label form_label"> <span class="radio_new_btn"></span> Biblioteca</label>
+                    </div>
+					
+					<div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Aluno" name="sexo" value="Aluno" required="required">
+                        <label for="Acadêmica" class="radio_label form_label"> <span class="radio_new_btn"></span> Acadêmica</label>
+                    </div>
+					
+					<div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Professor" name="sexo" value="Professor" required="required">
+                        <label for="Documentação" class="radio_label form_label"> <span class="radio_new_btn"></span> Documentação</label>
+                    </div>
+					
+					<div class="radio-btn">
+                        <input type="radio" class="form_new_input" id="Aluno" name="sexo" value="Aluno" required="required">
+                        <label for="Recursos Humanos" class="radio_label form_label"> <span class="radio_new_btn"></span> Recursos Humanos</label>
+                    </div>
+
+                <div class="input-group">
+                    <button>Salvar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

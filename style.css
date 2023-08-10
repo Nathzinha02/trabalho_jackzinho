@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.cabecalhopagina {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 130px;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    font: bold;
+    font-family: sans-serif;
+    color: white;
+    padding: 50px;
+
+}
+
+.aflex-item {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.aflex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    gap: 300px;
+    background-color:rgb(23, 25, 37);
+    
+}
